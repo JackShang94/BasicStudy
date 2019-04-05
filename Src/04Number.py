@@ -19,9 +19,11 @@ print(7.0 % 2)
 
 print(math.ceil(4.1))
 print(math.floor(4.7))
+print("Hello Visual Studio")
 
 #################################################
 print(random.choice(range(10)))
+
 
 print(random.randrange(1,100,2)) #从 1-100 中选取一个奇数
 print("randrange(100) : ", random.randrange(100)) # 从 0-99 选取一个随机数
