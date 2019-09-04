@@ -7,8 +7,6 @@ print(var1,var2)
 # del var1,var2
 # print(var1,var2)
 
-test
-
 a = 2.6
 int(a)
 print(a)
