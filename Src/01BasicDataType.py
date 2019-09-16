@@ -27,6 +27,7 @@ print(str + "TEST")  # 连接字符串
 
 print('Ru\noob')
 print(r'Ru\noob')
+print(r'Ru\'n\"oob')
 
 # ##################List#########################
 list = ['abcd', 786, 2.23, 'runoob', 70.2]
