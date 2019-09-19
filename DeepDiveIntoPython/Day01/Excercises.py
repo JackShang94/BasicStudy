@@ -11,3 +11,6 @@ print (8 == '8.0')
 print(True and False or  False)
 
 print((True or False) and  False)
+
+print(True and (False or not True))
+
