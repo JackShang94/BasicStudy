@@ -1,3 +1,5 @@
+# coding= utf-8
+
 counter = 100
 miles = 1000.0
 name = "runoob"
@@ -59,6 +61,8 @@ print(tup1)
 print(tup2)
 
 # ##################Set#########################
+# 基本功能是进行成员关系测试和删除重复元素。
+
 student = {'Tom', 'Jim', 'Mary', 'Tom', 'Jack', 'Rose'}
 
 print(student)  # 输出集合，重复的元素被自动去掉
