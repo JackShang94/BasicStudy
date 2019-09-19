@@ -87,7 +87,6 @@ t = int(input("Enter duration(years):"))
 a = p*(1+r/n)**(n*t)
 print("The investment balance after {0} years is {1}".format(t,a))
 
-
 x,y,z = 1,4,14
 print(x<=1 or y>1 and z<1) # result is true, T or T and F -> T or (T and F) -> T or F -> T
 
