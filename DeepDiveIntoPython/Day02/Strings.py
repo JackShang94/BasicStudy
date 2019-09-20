@@ -55,6 +55,3 @@ print('{:<10}{:<10}{:<10}'.format(5,6,5**6))
 print('{:10}{:10}{:10}'.format('a','b','a to power of b'))
 for value in range(1,6):
     print('{:<10}{:<10}{:<10}'.format(value,value+1,value**(value+1)))
-
-# Access characters in strings
- 
