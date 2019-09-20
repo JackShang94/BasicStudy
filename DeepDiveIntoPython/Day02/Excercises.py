@@ -49,4 +49,16 @@ print("The decimal value for {} is {}".format(digit,int(value)))
 
 # 5)
 key = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-plaintext = input("")
+plaintext = input("Input a 5-character plaintext:").upper()
+shiftNum = int(input("Input the number of positions to be shifted:"))
+
+length = len(plaintext)
+ciphertext = ''
+for i in range(length):
+    indexNum = key.find(plaintext[i])
+    newIndexNum = (int(indexNum) + shiftNum) % 26
+    ciphertext += key[newIndexNum]
+
+print('Ciphertext: {}'.format(ciphertext))
+
+
