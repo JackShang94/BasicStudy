@@ -25,7 +25,7 @@ c = a ** b
 print("6 - c 的值为：", c)
 
 a = 10
-b = 5
+b = 3
 c = a // b
 print("7 - c 的值为：", c)
 
