@@ -16,4 +16,14 @@ print(markList[1])
 
 letters = ['a','b']
 letters.append('c')
-letters.
+letters.extend(letters)
+letters.insert(3,'z')
+print(letters)
+letters.remove('c')
+print(letters)
+letters.pop(2)
+print(letters)
+letters.pop()
+print(letters)
+for each in letters :
+    print(each)
