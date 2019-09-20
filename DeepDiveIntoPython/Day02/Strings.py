@@ -55,3 +55,12 @@ print('{:<10}{:<10}{:<10}'.format(5,6,5**6))
 print('{:10}{:10}{:10}'.format('a','b','a to power of b'))
 for value in range(1,6):
     print('{:<10}{:<10}{:<10}'.format(value,value+1,value**(value+1)))
+
+
+first = 'Learning Strings'
+print(first[3:]) # ing Strings 
+print(first[3:6]) # rni
+print(first[3:9]) # rning
+print(first[3:9:2]) # rig
+print(first[3:9:-1]) # ''
+
