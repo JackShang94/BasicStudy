@@ -18,8 +18,12 @@ math.pi
 math.pow(2,2)
 
 # date time functions
-from datetime import date
-today = date.today()
+from datetime import datetime
+today = datetime.today()
+print(today)
+date_format = '%d/%m/%Y'
+converted_date = datetime.strptime('19/9/2018',date_format)
+print(converted_date)
 
 my_birthday = date(1994,8,3)
 time_to_birthday = abs(my_birthday - today)
