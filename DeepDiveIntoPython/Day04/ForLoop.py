@@ -16,3 +16,14 @@ for i in range(0,len(measurement)):
 average = total/len(measurement)
 
 # Activity 2
+for item in measurement:
+    if item > 25 :
+        print('Reading exceeded 25C')
+        break
+
+# Activity 3
+highest = 0
+for item in measurement:
+    if highest > item:
+        continue
+    highest = item
