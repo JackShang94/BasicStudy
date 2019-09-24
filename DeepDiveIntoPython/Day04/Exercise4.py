@@ -35,3 +35,5 @@ else: # quota less than bid and last two are same
                 print('$',biddingList[x])
             break # End loop
 
+# test case: quota = 5, biddings: 100, 88, 70, 70, 70, 70, 41
+# Expected results = 100, 88.
