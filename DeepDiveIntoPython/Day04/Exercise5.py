@@ -1,5 +1,6 @@
 import math
-def calculateTotalCost(phoneCost, monthlyCost, localData, talkTime, monthlyData, monthlyTalkTime):
+def calculateTotalCost(plan, monthlyData, monthlyTalkTime):
+    phoneCost, monthlyCost, localData, talkTime = plan[1],plan[2],plan[3],plan[4]
     chargeableData = 0
     chargeableTalkTime = 0
     if monthlyData > localData:
@@ -26,5 +27,5 @@ while True:
     print('{:<20}{:<20}{:<20}{:<20}{:<20}{:<20}'.format('Plan', 'Cost of phone', 'Monthly Cost', 'Local Dat(GB)', 'Talk time(mins)', 'Total Cost'))
     for item in planList:
          print('{:<20}{:<20}{:<20}{:<20}{:<20}${:<20.2f}'.format(item[0], item[1], item[2], item[3], item[4], 
-                calculateTotalCost(item[1], item[2], item[3], item[4], monthlyData, monthlyTalkTime)))
+                calculateTotalCost(item, monthlyData, monthlyTalkTime)))
 
