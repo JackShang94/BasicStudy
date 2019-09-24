@@ -14,9 +14,13 @@ while inputNum != answer:
     elif counter == 5:
         print('Game Over. The correct answer is: ',answer)
         break
-    else:
-        counter += 1
-        inputNum = int(input('Try {}: Guess again, enter a number between 1 and 100 (or -1 to end): '.format(counter)))
+    elif inputNum > answer:
+        print(inputNum, 'is too high.')
+    elif inputNum < answer:
+        print(inputNum, 'is too low.')
+
+    counter += 1
+    inputNum = int(input('Try {}: Guess again, enter a number between 1 and 100 (or -1 to end): '.format(counter)))
 
 if inputNum == answer:
     print('Bingo, you\'ve got it right! ')
