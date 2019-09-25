@@ -20,7 +20,7 @@ def list_products(p_list):
 def list_products_below_target(p_list, target):
     print('{:6}{:20}{:8}'.format('Code', 'Name', 'Price'))
     for p in p_list:
-        if p.price > target:
+        if p.price < target:
             print('{:6}{:20}{:8.2f}'.format(p.code, p.name, p.price))
 
 product_list = []
