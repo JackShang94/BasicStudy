@@ -6,4 +6,5 @@ bmi = weight / (height * height)
 
 print('Your height is ' + str(height) + 'm')
 print('Your weight is ' + str(weight) + 'kg')
+
 print('Your BMI is ' + str(bmi))
