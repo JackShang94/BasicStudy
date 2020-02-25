@@ -3,7 +3,7 @@ sum = 0
 while count <= 5:
     sum += count
     print(count,end = '')
-    count ++
+    count  += 1
 else:
     print('End.')
 

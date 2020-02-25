@@ -18,11 +18,11 @@ math.pi
 math.pow(2,2)
 
 # date time functions
-from datetime import datetime
-today = datetime.today()
+from datetime import date
+today = date.today()
 print(today)
 date_format = '%d/%m/%Y'
-converted_date = datetime.strptime('19/9/2018',date_format)
+converted_date = date.strptime('19/9/2018',date_format)
 print(converted_date)
 
 my_birthday = date(1994,8,3)

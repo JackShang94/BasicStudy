@@ -30,6 +30,6 @@ phoneBook.clear()
 phoneBook = {'Jack':'91238980','Lucy':'12345678','Bob':'87654321','Danny':'22222222'}
 for name in phoneBook :
     print(name,'->', phoneBook[name]) 
-
+    
 for key,value in phoneBook.items():
     print(key,value)
